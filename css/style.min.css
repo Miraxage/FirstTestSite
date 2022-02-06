@@ -1,0 +1,90 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0px 0px 0px;
+}
+
+.promo {
+  height: 800px;
+  background: url("/img/bg1.jpg") center center/cover no-repeat;
+}
+
+.icon img {
+  display: block;
+  margin: 0 auto;
+}
+
+.icon .title {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.title {
+  color: #ffcd00;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #294c29, 0px 0px 4px #464646;
+}
+
+.container > .title {
+  margin-top: 15px;
+}
+
+.container > .title ~ .title {
+  margin-top: 0px;
+}
+
+.title.big {
+  color: white;
+  font-size: 39px;
+}
+
+.example_vews {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.view {
+  width: 155px;
+  background: #00000080;
+  padding: 4px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.view > img {
+  width: 100%;
+  height: 100px;
+  border-radius: 2px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.view > .desr {
+  color: white;
+  text-shadow: 1px 1px 0px #000;
+}
